@@ -1,4 +1,4 @@
-PRACTICA GIT, GITHUB, EJERCICIO 1. 
+#**PRACTICA GIT, GITHUB, EJERCICIO 1** 
 
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
     
