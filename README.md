@@ -6,7 +6,7 @@ PRACTICA GIT, GITHUB, EJERCICIO 1.
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 
-    git reflog  (porque muestra el commit que quieres recuperar).
+    git reflog  (porque muestra el commit que quieres recuperar).<br/>
     git reset --hard 7404d0 (recupera el commit borrado y queda todo como estaba).
 
 - El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
@@ -23,8 +23,8 @@ PRACTICA GIT, GITHUB, EJERCICIO 1.
 
 - ¿Qué comando o comandos utilizaste en el paso 25?
 
-    git log --graph (Ver el grafo)
-    git --decorate (ver commits y ramas)
+    git log --graph (Ver el grafo)<br/>
+    git --decorate (ver commits y ramas)<br/>
     git log --graph --decorate --pretty=online (toda la información más reducida)
 
 - El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
@@ -45,21 +45,21 @@ PRACTICA GIT, GITHUB, EJERCICIO 1.
 
 -  ¿Qué comando o comando utilizaste en el paso 30?
 
-    git checkout -b title
-    notepad git-nuestro.md
-    git add git-nuestro.md
-    git commit -m "Añado titulo"
-    git checkout master
+    git checkout -b title<br/>
+    notepad git-nuestro.md<br/>
+    git add git-nuestro.md<br/>
+    git commit -m "Añado titulo"<br/>
+    git checkout master<br/>
     git merge --no--ff title
 
 -   ¿Qué comando o comando utilizaste en el paso 32?
     
-    git reflog (buscamos número del primer commit)
+    git reflog (buscamos número del primer commit)<br/>
     git checkout <primer-commit>
 
 -   ¿Qué comando o comando utilizaste en el paso 33?
 
-    git reflog (buscamos número del último commit)
+    git reflog (buscamos número del último commit)<br/>
     git checkout <último-commit>
 
 
